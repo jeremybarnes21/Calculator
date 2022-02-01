@@ -35,12 +35,9 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-#operatorDisplay{
+.display{
     font-size: 64px;
     
-}
-#answerDisplay{
-    font-size: 64px;
 }
 #buttonsDiv{
     width:90%;
@@ -102,4 +99,7 @@ body{
 .opBtn:focus{
     background-color: #f3aa21; /*need multiple buttons to be focused if want that*/
     color: #e5e5e5;
+}
+.disp{
+    font-size: 72px;
 }
